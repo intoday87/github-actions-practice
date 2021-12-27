@@ -1,3 +1,3 @@
 # github actions practice
 
-github actions 실습
+actions 동작을 위해 PR을 생성해
