@@ -1,3 +1,3 @@
 # github actions practice
 
-github actions 실습
+github actions 동작 확인!
