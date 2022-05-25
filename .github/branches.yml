@@ -2,7 +2,7 @@ test-branch:
   - branch: "test/**"
 
 feature-branch:
-  - branch: "*/feature/*"
+  - branch: "feature/*"
 
 bug-branch:
   - branch: "{bug,fix}/*"
