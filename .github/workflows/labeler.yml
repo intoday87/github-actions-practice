@@ -8,4 +8,5 @@ jobs:
     steps:
     - uses: intoday87/labeler@main
       with:
+        configuration-path: .github/branches.yml
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
