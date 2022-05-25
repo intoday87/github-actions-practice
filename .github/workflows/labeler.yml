@@ -6,6 +6,6 @@ jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: intoday87/labeler@v4
+    - uses: intoday87/labeler@main
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
