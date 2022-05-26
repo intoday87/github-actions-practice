@@ -1,0 +1,12 @@
+name: "Pull Request Labeler"
+on:
+- pull_request
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: dong-ho-lee/labeler@branch
+      with:
+        configuration-path: .github/branches.yml
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
