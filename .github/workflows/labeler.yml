@@ -6,7 +6,7 @@ jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: intoday87/labeler@main
+    - uses: dong-ho-lee/labeler@branch
       with:
         configuration-path: .github/branches.yml
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
